@@ -1,0 +1,25 @@
+Running: G:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o F:/git/FPGA/Examination/bit_26/TEST_isim_beh.exe -prj F:/git/FPGA/Examination/bit_26/TEST_beh.prj work.TEST work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "F:/git/FPGA/Examination/bit_26/register_8.v" into library work
+Analyzing Verilog file "F:/git/FPGA/Examination/bit_26/mux_8_to_1.v" into library work
+Analyzing Verilog file "F:/git/FPGA/Examination/bit_26/cnt_26bit.v" into library work
+Analyzing Verilog file "F:/git/FPGA/Examination/bit_26/top_register_8.v" into library work
+Analyzing Verilog file "F:/git/FPGA/Examination/bit_26/TEST.v" into library work
+Analyzing Verilog file "G:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module cnt_26bit
+Compiling module mux_8_to_1
+Compiling module register_8
+Compiling module top_register_8
+Compiling module TEST
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 6 Verilog Units
+Built simulation executable F:/git/FPGA/Examination/bit_26/TEST_isim_beh.exe
+Fuse Memory Usage: 29920 KB
+Fuse CPU Usage: 436 ms

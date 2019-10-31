@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "F:/git/FPGA/Examination/IPPP/ip_ver.xst" -ofn "F:/git/FPGA/Examination/IPPP/ip_ver.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim ip_ver.ngc ip_ver_synthesis.v 

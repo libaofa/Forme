@@ -1,0 +1,6 @@
+#!/bin/sh
+for x in a b c d e f; do
+	echo $x
+done
+
+exit 0

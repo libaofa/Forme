@@ -1,0 +1,24 @@
+xst -intstyle ise -ifn "F:/git/FPGA/Examination/aas/Complete_Row.xst" -ofn "F:/git/FPGA/Examination/aas/Complete_Row.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 Complete_Row.ngc Complete_Row.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Complete_Row_map.ncd Complete_Row.ngd Complete_Row.pcf 
+xst -intstyle ise -ifn "F:/git/FPGA/Examination/aas/Complete_Row.xst" -ofn "F:/git/FPGA/Examination/aas/Complete_Row.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 Complete_Row.ngc Complete_Row.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Complete_Row_map.ncd Complete_Row.ngd Complete_Row.pcf 
+xst -intstyle ise -ifn "F:/git/FPGA/Examination/aas/Complete_Row.xst" -ofn "F:/git/FPGA/Examination/aas/Complete_Row.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 Complete_Row.ngc Complete_Row.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Complete_Row_map.ncd Complete_Row.ngd Complete_Row.pcf 
+xst -intstyle ise -ifn "F:/git/FPGA/Examination/aas/Complete_Row.xst" -ofn "F:/git/FPGA/Examination/aas/Complete_Row.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 Complete_Row.ngc Complete_Row.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Complete_Row_map.ncd Complete_Row.ngd Complete_Row.pcf 
+xst -intstyle ise -ifn "F:/git/FPGA/Examination/aas/Complete_Row.xst" -ofn "F:/git/FPGA/Examination/aas/Complete_Row.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 Complete_Row.ngc Complete_Row.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Complete_Row_map.ncd Complete_Row.ngd Complete_Row.pcf 
+xst -intstyle ise -ifn "F:/git/FPGA/Examination/aas/Complete_Row.xst" -ofn "F:/git/FPGA/Examination/aas/Complete_Row.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 Complete_Row.ngc Complete_Row.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Complete_Row_map.ncd Complete_Row.ngd Complete_Row.pcf 
+xst -intstyle ise -ifn "F:/git/FPGA/Examination/aas/Complete_Row.xst" -ofn "F:/git/FPGA/Examination/aas/Complete_Row.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 Complete_Row.ngc Complete_Row.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Complete_Row_map.ncd Complete_Row.ngd Complete_Row.pcf 
+xst -intstyle ise -ifn "F:/git/FPGA/Examination/aas/Complete_Row.xst" -ofn "F:/git/FPGA/Examination/aas/Complete_Row.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 Complete_Row.ngc Complete_Row.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Complete_Row_map.ncd Complete_Row.ngd Complete_Row.pcf 

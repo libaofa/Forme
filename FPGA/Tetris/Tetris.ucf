@@ -1,0 +1,20 @@
+	NET "Clk_In" 	LOC = V10;
+	NET "Rst" 		LOC = T5;
+	NET "Hsync" 		LOC = N6;
+	NET "Vsync" 		LOC = P7;
+
+
+	NET "RGB[7]" 			LOC = R7;
+	NET "RGB[6]" 			LOC = T7;
+	NET "RGB[5]" 			LOC = P8;
+	NET "RGB[4]" 			LOC = T6;
+	NET "RGB[3]" 			LOC = V6;
+	NET "RGB[2]" 			LOC = U7;
+	NET "RGB[1]" 			LOC = V7;
+	NET "RGB[0]" 			LOC = N7;
+
+	NET "Left" 				LOC = C4;
+	NET "Right" 			LOC = D9;
+	NET "Down" 				LOC = C9;	
+	NET "Rotate" 			LOC = A8;
+	NET "Pause" 			LOC = T10;

@@ -1,0 +1,24 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon Jun 10 08:46:01 2019
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "Rst" LOCATE = SITE "T5" LEVEL 1;
+COMP "Left" LOCATE = SITE "C4" LEVEL 1;
+COMP "Down" LOCATE = SITE "C9" LEVEL 1;
+COMP "Pause" LOCATE = SITE "T10" LEVEL 1;
+COMP "Hsync" LOCATE = SITE "N6" LEVEL 1;
+COMP "Right" LOCATE = SITE "D9" LEVEL 1;
+COMP "Vsync" LOCATE = SITE "P7" LEVEL 1;
+COMP "RGB<0>" LOCATE = SITE "N7" LEVEL 1;
+COMP "RGB<1>" LOCATE = SITE "V7" LEVEL 1;
+COMP "RGB<2>" LOCATE = SITE "U7" LEVEL 1;
+COMP "RGB<3>" LOCATE = SITE "V6" LEVEL 1;
+COMP "RGB<4>" LOCATE = SITE "T6" LEVEL 1;
+COMP "RGB<5>" LOCATE = SITE "P8" LEVEL 1;
+COMP "RGB<6>" LOCATE = SITE "T7" LEVEL 1;
+COMP "RGB<7>" LOCATE = SITE "R7" LEVEL 1;
+COMP "Clk_In" LOCATE = SITE "V10" LEVEL 1;
+COMP "Rotate" LOCATE = SITE "A8" LEVEL 1;
+SCHEMATIC END;
+

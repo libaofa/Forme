@@ -1,0 +1,3 @@
+Change Component Footprint: Designator=C8 Old Footprint=CF0.1 New Footprint=CF0.2-13
+Added Member To Class: ClassName=原理图 Member=Component C13 470u
+Added Room: Name=原理图

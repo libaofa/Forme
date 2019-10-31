@@ -1,0 +1,11 @@
+Added Net: Name=GND
+Added Net: Name=Net*_P0.0
+Added Net: Name=Net*_P0.1
+Added Net: Name=Net*_P0.2
+Added Net: Name=Net*_P0.3
+Added Net: Name=Net*_P0.4
+Added Net: Name=Net*_P0.5
+Added Net: Name=Net*_P0.6
+Added Net: Name=Net*_P0.7
+Added Net: Name=VCC
+Added Room: Name=最小系统

@@ -1,0 +1,15 @@
+Component   : RAD0.1
+PCB Library : PcbLib1.PcbLib
+Date        : 2019/4/19
+Time        : 11:36:22
+
+
+
+Dimension : 5.461 x 2.794 mm
+
+ Layer(s)              Pads(s)  Tracks(s)  Fill(s)  Arc(s)  Text(s)
+--------------------------------------------------------------------
+ Top Overlay                 0          4        0       0        0
+ Multi Layer                 2          0        0       0        0
+--------------------------------------------------------------------
+ Total                       2          4        0       0        0

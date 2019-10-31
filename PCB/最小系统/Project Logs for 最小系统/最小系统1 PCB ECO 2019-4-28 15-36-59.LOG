@@ -1,0 +1,42 @@
+Removed Pin From Net: NetName=Net*1_21 Pin=*1-21
+Removed Pin From Net: NetName=Net*1_22 Pin=*1-22
+Removed Pin From Net: NetName=Net*1_23 Pin=*1-23
+Removed Pin From Net: NetName=Net*1_24 Pin=*1-24
+Removed Pin From Net: NetName=Net*1_25 Pin=*1-25
+Removed Pin From Net: NetName=Net*1_26 Pin=*1-26
+Removed Pin From Net: NetName=Net*1_27 Pin=*1-27
+Removed Pin From Net: NetName=Net*1_28 Pin=*1-28
+Removed Pin From Net: NetName=Net*1_29 Pin=*1-29
+Removed Pin From Net: NetName=Net*1_30 Pin=*1-30
+Removed Pin From Net: NetName=VCC Pin=*1-31
+Added Pin To Net: NetName=Net*1_30 Pin=*1-21
+Added Pin To Net: NetName=Net*1_29 Pin=*1-22
+Added Pin To Net: NetName=Net*1_28 Pin=*1-23
+Added Pin To Net: NetName=Net*1_27 Pin=*1-24
+Added Pin To Net: NetName=Net*1_26 Pin=*1-25
+Added Pin To Net: NetName=Net*1_25 Pin=*1-26
+Added Pin To Net: NetName=Net*1_24 Pin=*1-27
+Added Pin To Net: NetName=Net*1_23 Pin=*1-28
+Added Pin To Net: NetName=Net*1_21 Pin=*1-29
+Added Pin To Net: NetName=Net*1_22 Pin=*1-30
+Change Net Name : Old Net Name=Net*1_21 New Net Name=PSNE
+Change Net Name : Old Net Name=Net*1_22 New Net Name=PROG
+Change Net Name : Old Net Name=Net*1_23 New Net Name=P27
+Change Net Name : Old Net Name=Net*1_24 New Net Name=P26
+Change Net Name : Old Net Name=Net*1_25 New Net Name=P25
+Change Net Name : Old Net Name=Net*1_26 New Net Name=P24
+Change Net Name : Old Net Name=Net*1_27 New Net Name=P23
+Change Net Name : Old Net Name=Net*1_28 New Net Name=P22
+Change Net Name : Old Net Name=Net*1_29 New Net Name=P21
+Change Net Name : Old Net Name=Net*1_30 New Net Name=P20
+Change Net Name : Old Net Name=Net*1_32 New Net Name=P07
+Change Net Name : Old Net Name=Net*1_33 New Net Name=P06
+Change Net Name : Old Net Name=Net*1_34 New Net Name=P05
+Change Net Name : Old Net Name=Net*1_35 New Net Name=P04
+Change Net Name : Old Net Name=Net*1_36 New Net Name=P03
+Change Net Name : Old Net Name=Net*1_37 New Net Name=P02
+Change Net Name : Old Net Name=Net*1_38 New Net Name=P01
+Change Net Name : Old Net Name=Net*1_39 New Net Name=P00
+Added Pin To Net: NetName=EA Pin=*1-31
+Added Net: Name=EA
+Added Room: Name=最小系统

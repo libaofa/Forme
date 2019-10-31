@@ -1,0 +1,12 @@
+#!/bin/sh
+echo "Enter a:"
+read a
+echo "a = 1?"
+while [ "$a" != "1" ]; do
+	echo "Error, a != 1"
+	read a
+done
+
+echo "Yes, a = 1"
+
+exit 0

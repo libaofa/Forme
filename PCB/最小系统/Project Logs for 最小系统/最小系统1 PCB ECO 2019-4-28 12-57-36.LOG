@@ -1,0 +1,21 @@
+Change Component DesignItemId : Designator=* Old DesignItemId=STC New DesignItemId=IO扩展1
+Change Component Comment : Designator=* Old Comment=STC New Comment=IO扩展1
+Added Pin To Net: NetName=GND Pin=*-20
+Added Pin To Net: NetName=VCC Pin=*-40
+Added Pin To Net: NetName=Net*_32 Pin=*-32
+Added Net: Name=Net*_32
+Added Pin To Net: NetName=Net*_33 Pin=*-33
+Added Net: Name=Net*_33
+Added Pin To Net: NetName=Net*_34 Pin=*-34
+Added Net: Name=Net*_34
+Added Pin To Net: NetName=Net*_35 Pin=*-35
+Added Net: Name=Net*_35
+Added Pin To Net: NetName=Net*_36 Pin=*-36
+Added Net: Name=Net*_36
+Added Pin To Net: NetName=Net*_37 Pin=*-37
+Added Net: Name=Net*_37
+Added Pin To Net: NetName=Net*_38 Pin=*-38
+Added Net: Name=Net*_38
+Added Pin To Net: NetName=Net*_39 Pin=*-39
+Added Net: Name=Net*_39
+Added Room: Name=最小系统

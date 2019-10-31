@@ -1,0 +1,33 @@
+Removed Pin From Net: NetName=Net*1_39 Pin=R?-1
+Removed Pin From Net: NetName=Net*1_39 Pin=R?-2
+Change Component Designator: OldDesignator=R? NewDesignator=R1
+Change Component Designator: OldDesignator=R? NewDesignator=R2
+Change Component Designator: OldDesignator=R? NewDesignator=R3
+Change Component Designator: OldDesignator=R? NewDesignator=R4
+Change Component Designator: OldDesignator=R? NewDesignator=R5
+Change Component Designator: OldDesignator=R? NewDesignator=R6
+Change Component Designator: OldDesignator=R? NewDesignator=R7
+Change Component Designator: OldDesignator=R? NewDesignator=R8
+Added Pin To Net: NetName=Net*1_39 Pin=R1-1
+Added Pin To Net: NetName=Net*1_39 Pin=R1-2
+Added Pin To Net: NetName=Net*1_38 Pin=R2-1
+Added Pin To Net: NetName=Net*1_38 Pin=R2-2
+Added Pin To Net: NetName=Net*1_37 Pin=R3-1
+Added Pin To Net: NetName=Net*1_37 Pin=R3-2
+Added Pin To Net: NetName=Net*1_36 Pin=R4-1
+Added Pin To Net: NetName=Net*1_36 Pin=R4-2
+Added Pin To Net: NetName=Net*1_35 Pin=R5-1
+Added Pin To Net: NetName=Net*1_35 Pin=R5-2
+Added Pin To Net: NetName=Net*1_34 Pin=R6-1
+Added Pin To Net: NetName=Net*1_34 Pin=R6-2
+Added Pin To Net: NetName=Net*1_33 Pin=R7-1
+Added Pin To Net: NetName=Net*1_33 Pin=R7-2
+Added Pin To Net: NetName=Net*1_32 Pin=R8-1
+Added Pin To Net: NetName=Net*1_32 Pin=R8-2
+Added Member To Class: ClassName=最小系统 Member=Component R2 Res1
+Added Member To Class: ClassName=最小系统 Member=Component R3 Res1
+Added Member To Class: ClassName=最小系统 Member=Component R4 Res1
+Added Member To Class: ClassName=最小系统 Member=Component R5 Res1
+Added Member To Class: ClassName=最小系统 Member=Component R6 Res1
+Added Member To Class: ClassName=最小系统 Member=Component R7 Res1
+Added Member To Class: ClassName=最小系统 Member=Component R8 Res1

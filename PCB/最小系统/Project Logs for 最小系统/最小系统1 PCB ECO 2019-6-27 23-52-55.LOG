@@ -1,0 +1,53 @@
+Change Component Designator: OldDesignator=* NewDesignator=*2
+Added Component: Designator=*3(HDR1X20)
+Added Component: Designator=P1(HDR1X2)
+Added Component: Designator=S1(SPST-2)
+Added Pin To Net: NetName=GND Pin=P1-1
+Added Net: Name=GND
+Added Pin To Net: NetName=Net*1_21 Pin=*1-21
+Added Net: Name=Net*1_21
+Added Pin To Net: NetName=Net*1_22 Pin=*1-22
+Added Net: Name=Net*1_22
+Added Pin To Net: NetName=Net*1_23 Pin=*1-23
+Added Net: Name=Net*1_23
+Added Pin To Net: NetName=Net*1_24 Pin=*1-24
+Added Net: Name=Net*1_24
+Added Pin To Net: NetName=Net*1_25 Pin=*1-25
+Added Net: Name=Net*1_25
+Added Pin To Net: NetName=Net*1_26 Pin=*1-26
+Added Net: Name=Net*1_26
+Added Pin To Net: NetName=Net*1_27 Pin=*1-27
+Added Net: Name=Net*1_27
+Added Pin To Net: NetName=Net*1_28 Pin=*1-28
+Added Net: Name=Net*1_28
+Added Pin To Net: NetName=Net*1_29 Pin=*1-29
+Added Net: Name=Net*1_29
+Added Pin To Net: NetName=Net*1_30 Pin=*1-30
+Added Net: Name=Net*1_30
+Added Pin To Net: NetName=Net*1_32 Pin=*1-32
+Added Net: Name=Net*1_32
+Added Pin To Net: NetName=Net*1_33 Pin=*1-33
+Added Net: Name=Net*1_33
+Added Pin To Net: NetName=Net*1_34 Pin=*1-34
+Added Net: Name=Net*1_34
+Added Pin To Net: NetName=Net*1_35 Pin=*1-35
+Added Net: Name=Net*1_35
+Added Pin To Net: NetName=Net*1_36 Pin=*1-36
+Added Net: Name=Net*1_36
+Added Pin To Net: NetName=Net*1_37 Pin=*1-37
+Added Net: Name=Net*1_37
+Added Pin To Net: NetName=Net*1_38 Pin=*1-38
+Added Net: Name=Net*1_38
+Added Pin To Net: NetName=Net*1_39 Pin=*1-39
+Added Net: Name=Net*1_39
+Added Pin To Net: NetName=NetP1_2 Pin=P1-2
+Added Pin To Net: NetName=NetP1_2 Pin=S1-1
+Added Net: Name=NetP1_2
+Added Pin To Net: NetName=VCC Pin=*1-31
+Added Pin To Net: NetName=VCC Pin=*1-40
+Added Pin To Net: NetName=VCC Pin=S1-2
+Added Net: Name=VCC
+Added Member To Class: ClassName=最小系统 Member=Component *3 IO扩展2
+Added Member To Class: ClassName=最小系统 Member=Component P1 Header 2
+Added Member To Class: ClassName=最小系统 Member=Component S1 SW-PB
+Added Room: Name=最小系统
