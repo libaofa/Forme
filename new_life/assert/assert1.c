@@ -27,4 +27,5 @@ int main()
 	
 	这实际上是一个宏，不是一个函数，可用于在 C 程序中添加诊断
 	#define assert(ignore) ((void)0)
+	2019
 */
