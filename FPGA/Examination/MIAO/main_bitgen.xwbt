@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=F:\git\FPGA\Examination\MIAO\main.ncd
+OUTFILE=F:\git\FPGA\Examination\MIAO\main.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=F:\git\FPGA\Examination\MIAO
+LICENSE=WebPack
+USER_INFO=__0_0_0

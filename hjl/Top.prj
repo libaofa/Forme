@@ -1,0 +1,6 @@
+verilog work "ipcore_dir/Ip_Clk_65M.v"
+verilog work "C:/Users/Ken/Desktop/Tetris_1/Vga_Display.v"
+verilog work "C:/Users/Ken/Desktop/Tetris_1/Vga_1024x768.v"
+verilog work "C:/Users/Ken/Desktop/Tetris_1/Rom_Data.v"
+verilog work "C:/Users/Ken/Desktop/Tetris_1/Clk_65M.v"
+verilog work "C:/Users/Ken/Desktop/Tetris_1/Top.v"

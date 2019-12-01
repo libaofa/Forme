@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "F:/git/FPGA/Examination/mb/clk_div.xst" -ofn "F:/git/FPGA/Examination/mb/clk_div.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim clk_div.ngc clk_div_synthesis.v 
+xst -intstyle ise -ifn "F:/git/FPGA/Examination/mb/clk_div.xst" -ofn "F:/git/FPGA/Examination/mb/clk_div.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim clk_div.ngc clk_div_synthesis.v 
+xst -intstyle ise -ifn "F:/git/FPGA/Examination/mb/clk_div.xst" -ofn "F:/git/FPGA/Examination/mb/clk_div.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim clk_div.ngc clk_div_synthesis.v 

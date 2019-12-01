@@ -1,0 +1,2 @@
+Change Component Footprint: Designator=S1 Old Footprint=PCBComponent_1 - duplicate1 New Footprint=SPST-2
+Added Pin To Net: NetName=RST Pin=S1-1

@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "F:/git/FPGA/Examination/bit_26/top_register_8.xst" -ofn "F:/git/FPGA/Examination/bit_26/top_register_8.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Examination/bit_26/top_register_8.xst" -ofn "F:/git/FPGA/Examination/bit_26/top_register_8.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Examination/bit_26/top_register_8.xst" -ofn "F:/git/FPGA/Examination/bit_26/top_register_8.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim top_register_8.ngc top_register_8_synthesis.v 
+xst -intstyle ise -ifn "F:/git/FPGA/Examination/bit_26/top_register_8.xst" -ofn "F:/git/FPGA/Examination/bit_26/top_register_8.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim top_register_8.ngc top_register_8_synthesis.v 
+xst -intstyle ise -ifn "F:/git/FPGA/Examination/bit_26/top_register_8.xst" -ofn "F:/git/FPGA/Examination/bit_26/top_register_8.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim top_register_8.ngc top_register_8_synthesis.v 

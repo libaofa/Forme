@@ -1,0 +1,50 @@
+Added Component: Designator=C3(RAD-0.2)
+Added Component: Designator=C9(RAD-0.2)
+Added Component: Designator=D1(DIO10.46-5.3x2.8)
+Added Component: Designator=D2(DIO10.46-5.3x2.8)
+Added Component: Designator=D4(DIO10.46-5.3x2.8)
+Added Component: Designator=D5(DIO10.46-5.3x2.8)
+Added Component: Designator=IN(HDR1X3)
+Added Component: Designator=OUTL(HDR1X2)
+Added Component: Designator=OUTR(HDR1X2)
+Added Component: Designator=PW(HDR1X2)
+Added Component: Designator=R1(RAD-0.1)
+Added Component: Designator=R3(RAD-0.1)
+Added Pin To Net: NetName=NetC3_1 Pin=C3-1
+Added Pin To Net: NetName=NetC3_2 Pin=C3-2
+Added Pin To Net: NetName=NetC9_1 Pin=C9-1
+Added Pin To Net: NetName=NetC9_2 Pin=C9-2
+Added Pin To Net: NetName=NetD1_1 Pin=D1-1
+Added Pin To Net: NetName=VCC Pin=D1-2
+Added Pin To Net: NetName=NetD2_1 Pin=D2-1
+Added Pin To Net: NetName=VCC Pin=D2-2
+Added Pin To Net: NetName=GND Pin=D4-1
+Added Pin To Net: NetName=NetD1_1 Pin=D4-2
+Added Pin To Net: NetName=GND Pin=D5-1
+Added Pin To Net: NetName=NetD2_1 Pin=D5-2
+Added Pin To Net: NetName=NetIN_1 Pin=IN-1
+Added Pin To Net: NetName=GND Pin=IN-2
+Added Pin To Net: NetName=NetIN_3 Pin=IN-3
+Added Pin To Net: NetName=GND Pin=OUTL-1
+Added Pin To Net: NetName=NetC1_2 Pin=OUTL-2
+Added Pin To Net: NetName=GND Pin=OUTR-1
+Added Pin To Net: NetName=NetC13_2 Pin=OUTR-2
+Added Pin To Net: NetName=NetD1_1 Pin=PW-1
+Added Pin To Net: NetName=NetD2_1 Pin=PW-2
+Added Pin To Net: NetName=NetR1_1 Pin=R1-1
+Added Pin To Net: NetName=NetC4_1 Pin=R1-2
+Added Pin To Net: NetName=NetC11_1 Pin=R3-1
+Added Pin To Net: NetName=NetR3_2 Pin=R3-2
+Added Member To Class: ClassName=Sheet1 Member=Component C3 0.22
+Added Member To Class: ClassName=Sheet1 Member=Component C9 0.22
+Added Member To Class: ClassName=Sheet1 Member=Component D1 Diode 1N4007
+Added Member To Class: ClassName=Sheet1 Member=Component D2 Diode 1N4007
+Added Member To Class: ClassName=Sheet1 Member=Component D4 Diode 1N4007
+Added Member To Class: ClassName=Sheet1 Member=Component D5 Diode 1N4007
+Added Member To Class: ClassName=Sheet1 Member=Component IN 
+Added Member To Class: ClassName=Sheet1 Member=Component OUTL Header 2
+Added Member To Class: ClassName=Sheet1 Member=Component OUTR Header 2
+Added Member To Class: ClassName=Sheet1 Member=Component PW Header 2
+Added Member To Class: ClassName=Sheet1 Member=Component R1 1k
+Added Member To Class: ClassName=Sheet1 Member=Component R3 1k
+Added Room: Name=Sheet1

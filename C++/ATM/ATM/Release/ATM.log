@@ -1,0 +1,42 @@
+﻿生成启动时间为 2018/11/22 15:29:01。
+     1>项目“G:\1编程\C++\vs2012\ATM\ATM\ATM.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _CRT_NONSTDC_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Deposit.cpp Empty_ATM.cpp Frist.cpp Function.cpp lbf_Difinition.cpp Login.cpp main.cpp Manage.cpp Query.cpp Register.cpp Tighten.cpp Virement.cpp Water.cpp Withdraw_money.cpp
+         Deposit.cpp
+         Empty_ATM.cpp
+         Frist.cpp
+         Function.cpp
+         lbf_Difinition.cpp
+         Login.cpp
+         main.cpp
+         Manage.cpp
+         Query.cpp
+         Register.cpp
+         Tighten.cpp
+         Virement.cpp
+         Water.cpp
+         Withdraw_money.cpp
+       Link:
+         F:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\1编程\C++\vs2012\ATM\Release\ATM.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\1编程\C++\vs2012\ATM\Release\ATM.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\1编程\C++\vs2012\ATM\Release\ATM.lib" /MACHINE:X86 /SAFESEH Release\Deposit.obj
+         Release\Empty_ATM.obj
+         Release\Frist.obj
+         Release\Function.obj
+         Release\lbf_Difinition.obj
+         Release\Login.obj
+         Release\main.obj
+         Release\Manage.obj
+         Release\Query.obj
+         Release\Register.obj
+         Release\Tighten.obj
+         Release\Virement.obj
+         Release\Water.obj
+         Release\Withdraw_money.obj
+         正在生成代码
+     1>g:\1编程\c++\vs2012\atm\atm\function.cpp(39): warning C4717: “Function”: 如递归所有控件路径，函数将导致运行时堆栈溢出
+         已完成代码的生成
+         ATM.vcxproj -> G:\1编程\C++\vs2012\ATM\Release\ATM.exe
+     1>已完成生成项目“G:\1编程\C++\vs2012\ATM\ATM\ATM.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:28.01

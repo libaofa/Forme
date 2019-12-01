@@ -1,0 +1,6 @@
+Change Component Designator: OldDesignator=* NewDesignator=*R
+Change Component Kind : Designator=*4 Old Kind=Standard New Kind=Net Tie
+Change Component Kind : Designator=*1 Old Kind=Standard New Kind=Net Tie
+Change Component Kind : Designator=*R Old Kind=Standard New Kind=Net Tie (In BOM)
+Change Component Kind : Designator=*2 Old Kind=Standard New Kind=Net Tie (In BOM)
+Added Room: Name=最小系统

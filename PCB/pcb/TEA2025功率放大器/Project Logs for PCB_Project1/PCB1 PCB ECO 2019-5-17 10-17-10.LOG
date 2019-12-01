@@ -1,0 +1,47 @@
+Added Component: Designator=D1(DIO10.46-5.3x2.8)
+Added Component: Designator=D2(DIO10.46-5.3x2.8)
+Added Component: Designator=D4(DIO10.46-5.3x2.8)
+Added Component: Designator=D5(DIO10.46-5.3x2.8)
+Added Component: Designator=IN(HDR1X3H)
+Added Component: Designator=OUTL(HDR1X2)
+Added Component: Designator=OUTR(HDR1X2)
+Added Component: Designator=PW(HDR1X2)
+Added Pin To Net: NetName=GND Pin=D4-1
+Added Pin To Net: NetName=GND Pin=D5-1
+Added Pin To Net: NetName=GND Pin=IN-2
+Added Pin To Net: NetName=GND Pin=OUTL-1
+Added Pin To Net: NetName=GND Pin=OUTR-1
+Added Net: Name=GND
+Added Net: Name=NetC1_1
+Added Pin To Net: NetName=NetC1_2 Pin=OUTL-2
+Added Net: Name=NetC1_2
+Added Net: Name=NetC3_1
+Added Net: Name=NetC3_2
+Added Net: Name=NetC4_1
+Added Net: Name=NetC5_1
+Added Net: Name=NetC6_1
+Added Net: Name=NetC9_1
+Added Net: Name=NetC9_2
+Added Net: Name=NetC10_1
+Added Net: Name=NetC10_2
+Added Net: Name=NetC11_1
+Added Pin To Net: NetName=NetD1_1 Pin=D1-1
+Added Pin To Net: NetName=NetD1_1 Pin=D4-2
+Added Pin To Net: NetName=NetD1_1 Pin=PW-1
+Added Net: Name=NetD1_1
+Added Pin To Net: NetName=NetD2_1 Pin=D2-1
+Added Pin To Net: NetName=NetD2_1 Pin=D5-2
+Added Pin To Net: NetName=NetD2_1 Pin=PW-2
+Added Net: Name=NetD2_1
+Added Net: Name=NetD3_2
+Added Pin To Net: NetName=NetIN_1 Pin=IN-1
+Added Net: Name=NetIN_1
+Added Pin To Net: NetName=NetIN_3 Pin=IN-3
+Added Net: Name=NetIN_3
+Added Net: Name=NetR1_1
+Added Net: Name=NetR3_2
+Added Pin To Net: NetName=VCC Pin=D1-2
+Added Pin To Net: NetName=VCC Pin=D2-2
+Added Net: Name=VCC
+Added Class: Name=Sheet1
+Added Room: Name=Sheet1

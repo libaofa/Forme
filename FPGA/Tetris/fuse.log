@@ -1,0 +1,48 @@
+Running: G:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib simprims_ver -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o F:/git/FPGA/Tetris/Test_isim_par.exe -prj F:/git/FPGA/Tetris/Test_par.prj work.Test work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "F:/git/FPGA/Tetris/netgen/par/Tetris_timesim.v" into library work
+Analyzing Verilog file "F:/git/FPGA/Tetris/Test.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module X_LUT6(INIT=64'b0100000000000000...
+Compiling module X_LUT5(INIT=32'b1111111111111111...
+Compiling module X_ONE
+Compiling module X_CARRY4
+Compiling module X_BUF
+Compiling module X_ZERO
+Compiling module sffsrce
+Compiling module X_SFF
+Compiling module latchsre
+Compiling module X_LATCHE
+Compiling module mux
+Compiling module X_MUX2
+Compiling module X_IPAD
+Compiling module X_INV(LOC="PAD154")
+Compiling module X_OPAD
+Compiling module X_OBUF
+Compiling module X_DSP48A1(A1REG=0,B1REG=0,CARRYI...
+Compiling module X_DSP48A1(A1REG=0,B1REG=0,CARRYI...
+Compiling module X_CKBUF
+Compiling module X_BUFIO2_default
+Compiling module X_BUFIO2FB
+Compiling module x_dcm_sp_clock_divide_by_2
+Compiling module x_dcm_sp_maximum_period_check(cl...
+Compiling module x_dcm_sp_maximum_period_check(cl...
+Compiling module x_dcm_sp_clock_lost
+Compiling module X_DCM_SP(CLKFX_DIVIDE=20,CLKFX_M...
+Compiling module ffsrce
+Compiling module X_FF
+Compiling module X_SFF(INIT=1'b1)
+Compiling module X_FF(INIT=1'b1)
+Compiling module Tetris
+Compiling module Test
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 8265 Verilog Units
+Built simulation executable F:/git/FPGA/Tetris/Test_isim_par.exe
+Fuse Memory Usage: 386524 KB
+Fuse CPU Usage: 36128 ms
