@@ -2,7 +2,11 @@
 
 void Water(ATM *P1)     /*流水函数*/
 {
+<<<<<<< HEAD
     std::ifstream pt(P1->file.c_str(), std::ios_base::in);      /*写方式打开文件*/
+=======
+    std::ifstream pt(P1->file.c_str(), std::ios_base::in);      /*1️⃣写方式打开文件*/
+>>>>>>> 74cce2bef85dc01e4d8ba6caea806de5295bd012
     if(!pt.is_open())                       /*打开失败*/
     {
         std::cerr<<"打开失败"<<std::endl;   /*错误输出*/

@@ -60,4 +60,8 @@ void creat_daemon(void)
 	ps ajx | grep "./linux_message_server.out" | grep -v "grep" |awk '{print $2}'
 	./linux_message_server.out 是进程名字
 	sudo kill 进程号
+<<<<<<< HEAD
+=======
+	2019.11
+>>>>>>> 74cce2bef85dc01e4d8ba6caea806de5295bd012
 */
