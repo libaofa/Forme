@@ -1,0 +1,814 @@
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim Tetris.ngc Tetris_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim Tetris.ngc Tetris_synthesis.v 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim Tetris.ngc Tetris_synthesis.v 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim Tetris.ngc Tetris_synthesis.v 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim Tetris.ngc Tetris_synthesis.v 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim Tetris.ngc Tetris_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim Tetris.ngc Tetris_synthesis.v 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim Tetris.ngc Tetris_synthesis.v 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 
+netgen -intstyle ise -s 3  -pcf Tetris.pcf -sdf_anno true -sdf_path "netgen/par" -insert_glbl true -insert_pp_buffers true -w -dir netgen/par -ofmt verilog -sim Tetris.ncd Tetris_timesim.v 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Tetris/Tetris.xst" -ofn "F:/git/FPGA/Tetris/Tetris.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Tetris.ucf -p xc6slx16-csg324-3 Tetris.ngc Tetris.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -detail -ir off -pr off -lc off -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -power off -o Tetris_map.ncd Tetris.ngd Tetris.pcf 
+par -w -intstyle ise -ol high -smartguide "F:/git/FPGA/Tetris/Tetris_guide.ncd" -mt off Tetris_map.ncd Tetris.ncd Tetris.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Tetris.twx Tetris.ncd -o Tetris.twr Tetris.pcf -ucf Tetris.ucf 
+bitgen -intstyle ise -f Tetris.ut Tetris.ncd 

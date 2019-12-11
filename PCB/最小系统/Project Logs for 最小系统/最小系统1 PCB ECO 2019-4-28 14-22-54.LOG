@@ -1,0 +1,43 @@
+Removed Pin From Net: NetName=P11 Pin=*2-2
+Removed Pin From Net: NetName=P12 Pin=*2-3
+Removed Pin From Net: NetName=P13 Pin=*2-4
+Removed Pin From Net: NetName=P14 Pin=*2-5
+Removed Pin From Net: NetName=P15 Pin=*2-6
+Removed Pin From Net: NetName=P16 Pin=*2-7
+Removed Pin From Net: NetName=P17 Pin=*2-8
+Removed Pin From Net: NetName=RST Pin=*2-9
+Removed Pin From Net: NetName=P30 Pin=*2-10
+Removed Pin From Net: NetName=P31 Pin=*2-11
+Removed Pin From Net: NetName=P32 Pin=*2-12
+Removed Pin From Net: NetName=P33 Pin=*2-13
+Removed Pin From Net: NetName=P34 Pin=*2-14
+Removed Pin From Net: NetName=P35 Pin=*2-15
+Removed Pin From Net: NetName=P36 Pin=*2-16
+Removed Pin From Net: NetName=P37 Pin=*2-17
+Removed Pin From Net: NetName=X2 Pin=*2-18
+Removed Pin From Net: NetName=X1 Pin=*2-19
+Removed Pin From Net: NetName=GND Pin=*2-20
+Removed Pin From Net: NetName=P20 Pin=*2-21
+Removed Pin From Net: NetName=P21 Pin=*2-22
+Removed Pin From Net: NetName=P22 Pin=*2-23
+Removed Pin From Net: NetName=P23 Pin=*2-24
+Removed Pin From Net: NetName=P24 Pin=*2-25
+Removed Pin From Net: NetName=P25 Pin=*2-26
+Removed Pin From Net: NetName=P26 Pin=*2-27
+Removed Pin From Net: NetName=P27 Pin=*2-28
+Removed Pin From Net: NetName=PSNE Pin=*2-29
+Removed Pin From Net: NetName=PROG Pin=*2-30
+Removed Pin From Net: NetName=EA Pin=*2-31
+Removed Pin From Net: NetName=P07 Pin=*2-32
+Removed Pin From Net: NetName=P06 Pin=*2-33
+Removed Pin From Net: NetName=P05 Pin=*2-34
+Removed Pin From Net: NetName=P04 Pin=*2-35
+Removed Pin From Net: NetName=P03 Pin=*2-36
+Removed Pin From Net: NetName=P02 Pin=*2-37
+Removed Pin From Net: NetName=P01 Pin=*2-38
+Removed Pin From Net: NetName=P00 Pin=*2-39
+Removed Pin From Net: NetName=VCC Pin=*2-40
+Removed Member From Class: ClassName=最小系统 Member=*2
+Added Component: Designator=*(DIP40 - duplicate)
+Added Member To Class: ClassName=最小系统 Member=Component * STC
+Added Room: Name=最小系统

@@ -1,0 +1,38 @@
+Added Pin To Net: NetName=Net*2_21 Pin=*2-21
+Added Net: Name=Net*2_21
+Added Pin To Net: NetName=Net*2_22 Pin=*2-22
+Added Net: Name=Net*2_22
+Added Pin To Net: NetName=Net*2_23 Pin=*2-23
+Added Net: Name=Net*2_23
+Added Pin To Net: NetName=Net*2_24 Pin=*2-24
+Added Net: Name=Net*2_24
+Added Pin To Net: NetName=Net*2_25 Pin=*2-25
+Added Net: Name=Net*2_25
+Added Pin To Net: NetName=Net*2_26 Pin=*2-26
+Added Net: Name=Net*2_26
+Added Pin To Net: NetName=Net*2_27 Pin=*2-27
+Added Net: Name=Net*2_27
+Added Pin To Net: NetName=Net*2_28 Pin=*2-28
+Added Net: Name=Net*2_28
+Added Pin To Net: NetName=Net*2_29 Pin=*2-29
+Added Net: Name=Net*2_29
+Added Pin To Net: NetName=Net*2_30 Pin=*2-30
+Added Net: Name=Net*2_30
+Added Pin To Net: NetName=Net*2_32 Pin=*2-32
+Added Net: Name=Net*2_32
+Added Pin To Net: NetName=Net*2_33 Pin=*2-33
+Added Net: Name=Net*2_33
+Added Pin To Net: NetName=Net*2_34 Pin=*2-34
+Added Net: Name=Net*2_34
+Added Pin To Net: NetName=Net*2_35 Pin=*2-35
+Added Net: Name=Net*2_35
+Added Pin To Net: NetName=Net*2_36 Pin=*2-36
+Added Net: Name=Net*2_36
+Added Pin To Net: NetName=Net*2_37 Pin=*2-37
+Added Net: Name=Net*2_37
+Added Pin To Net: NetName=Net*2_38 Pin=*2-38
+Added Net: Name=Net*2_38
+Added Pin To Net: NetName=Net*2_39 Pin=*2-39
+Added Net: Name=Net*2_39
+Added Member To Class: ClassName=最小系统 Member=Component *2 STC
+Added Room: Name=最小系统

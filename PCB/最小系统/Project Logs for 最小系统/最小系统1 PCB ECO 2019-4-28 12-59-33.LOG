@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=GND Pin=*-20
+Removed Pin From Net: NetName=VCC Pin=*-40
+Added Pin To Net: NetName=GND Pin=*-20
+Added Pin To Net: NetName=VCC Pin=*-40
+Added Room: Name=最小系统

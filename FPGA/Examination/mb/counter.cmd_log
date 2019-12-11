@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "F:/git/FPGA/Examination/mb/counter.xst" -ofn "F:/git/FPGA/Examination/mb/counter.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim counter.ngc counter_synthesis.v 

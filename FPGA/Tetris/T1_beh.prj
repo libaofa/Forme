@@ -1,0 +1,4 @@
+verilog work "ipcore_dir/Clk_65.v"
+verilog work "Clk_65M.v"
+verilog work "T1.v"
+verilog work "G:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

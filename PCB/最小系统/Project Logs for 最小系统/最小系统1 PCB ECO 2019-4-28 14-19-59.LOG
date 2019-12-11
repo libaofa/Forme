@@ -1,0 +1,39 @@
+Added Pin To Net: NetName=EA Pin=*2-31
+Added Net: Name=EA
+Added Pin To Net: NetName=P00 Pin=*2-39
+Added Net: Name=P00
+Added Pin To Net: NetName=P01 Pin=*2-38
+Added Net: Name=P01
+Added Pin To Net: NetName=P02 Pin=*2-37
+Added Net: Name=P02
+Added Pin To Net: NetName=P03 Pin=*2-36
+Added Net: Name=P03
+Added Pin To Net: NetName=P04 Pin=*2-35
+Added Net: Name=P04
+Added Pin To Net: NetName=P05 Pin=*2-34
+Added Net: Name=P05
+Added Pin To Net: NetName=P06 Pin=*2-33
+Added Net: Name=P06
+Added Pin To Net: NetName=P07 Pin=*2-32
+Added Net: Name=P07
+Added Pin To Net: NetName=P20 Pin=*2-21
+Added Net: Name=P20
+Added Pin To Net: NetName=P21 Pin=*2-22
+Added Net: Name=P21
+Added Pin To Net: NetName=P22 Pin=*2-23
+Added Net: Name=P22
+Added Pin To Net: NetName=P23 Pin=*2-24
+Added Net: Name=P23
+Added Pin To Net: NetName=P24 Pin=*2-25
+Added Net: Name=P24
+Added Pin To Net: NetName=P25 Pin=*2-26
+Added Net: Name=P25
+Added Pin To Net: NetName=P26 Pin=*2-27
+Added Net: Name=P26
+Added Pin To Net: NetName=P27 Pin=*2-28
+Added Net: Name=P27
+Added Pin To Net: NetName=PROG Pin=*2-30
+Added Net: Name=PROG
+Added Pin To Net: NetName=PSNE Pin=*2-29
+Added Net: Name=PSNE
+Added Room: Name=最小系统

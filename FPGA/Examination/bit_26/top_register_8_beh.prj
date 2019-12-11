@@ -1,0 +1,5 @@
+verilog work "register_8.v"
+verilog work "mux_8_to_1.v"
+verilog work "cnt_26bit.v"
+verilog work "top_register_8.v"
+verilog work "G:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

@@ -1,0 +1,4 @@
+Added Component: Designator=D1(RAD-0.1)
+Added Pin To Net: NetName=VCC Pin=D1-1
+Added Pin To Net: NetName=NetD1_2 Pin=D1-2
+Added Member To Class: ClassName=最小系统 Member=Component D1 LED0

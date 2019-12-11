@@ -1,0 +1,5 @@
+verilog work "state.v"
+verilog work "seven_seg_controller.v"
+verilog work "counter.v"
+verilog work "clk_div.v"
+verilog work "main.v"

@@ -1,0 +1,5 @@
+Added Component: Designator=Q?(BCY-W3/E4)
+Added Pin To Net: NetName=Net*_VCC Pin=Q?-2
+Added Net: Name=Net*_VCC
+Added Member To Class: ClassName=最小系统 Member=Component Q? 2N3904
+Added Room: Name=最小系统

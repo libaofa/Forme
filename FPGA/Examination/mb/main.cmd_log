@@ -1,0 +1,16 @@
+xst -intstyle ise -ifn "F:/git/FPGA/Examination/mb/main.xst" -ofn "F:/git/FPGA/Examination/mb/main.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Examination/mb/main.xst" -ofn "F:/git/FPGA/Examination/mb/main.syr" 
+xst -intstyle ise -ifn "F:/git/FPGA/Examination/mb/main.xst" -ofn "F:/git/FPGA/Examination/mb/main.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim main.ngc main_synthesis.v 
+xst -intstyle ise -ifn "F:/git/FPGA/Examination/mb/main.xst" -ofn "F:/git/FPGA/Examination/mb/main.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim main.ngc main_synthesis.v 
+xst -intstyle ise -ifn "F:/git/FPGA/Examination/mb/main.xst" -ofn "F:/git/FPGA/Examination/mb/main.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim main.ngc main_synthesis.v 
+xst -intstyle ise -ifn "F:/git/FPGA/Examination/mb/main.xst" -ofn "F:/git/FPGA/Examination/mb/main.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim main.ngc main_synthesis.v 
+xst -intstyle ise -ifn "F:/git/FPGA/Examination/mb/main.xst" -ofn "F:/git/FPGA/Examination/mb/main.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim main.ngc main_synthesis.v 
+xst -intstyle ise -ifn "F:/git/FPGA/Examination/mb/main.xst" -ofn "F:/git/FPGA/Examination/mb/main.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim main.ngc main_synthesis.v 
+xst -intstyle ise -ifn "F:/git/FPGA/Examination/mb/main.xst" -ofn "F:/git/FPGA/Examination/mb/main.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim main.ngc main_synthesis.v 

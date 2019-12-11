@@ -1,0 +1,27 @@
+﻿生成启动时间为 2018/11/27 17:59:13。
+     1>项目“G:\1编程\C++\vs2012\ATM\ATM\ATM.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_NONSTDC_NO_DEPRECATE /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Deposit.cpp
+         Deposit.cpp
+     1>g:\1编程\c++\vs2012\atm\atm\deposit.cpp(26): warning C4700: 使用了未初始化的局部变量“time”
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\1编程\C++\vs2012\ATM\Debug\ATM.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\1编程\C++\vs2012\ATM\Debug\ATM.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\1编程\C++\vs2012\ATM\Debug\ATM.lib" /MACHINE:X86 Debug\Deposit.obj
+         Debug\Empty_ATM.obj
+         Debug\Frist.obj
+         Debug\Function.obj
+         Debug\lbf_Difinition.obj
+         Debug\Login.obj
+         Debug\main.obj
+         Debug\Manage.obj
+         Debug\Query.obj
+         Debug\Register.obj
+         Debug\Tighten.obj
+         Debug\Virement.obj
+         Debug\Water.obj
+         Debug\Withdraw_money.obj
+         ATM.vcxproj -> G:\1编程\C++\vs2012\ATM\Debug\ATM.exe
+     1>已完成生成项目“G:\1编程\C++\vs2012\ATM\ATM\ATM.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:08.56

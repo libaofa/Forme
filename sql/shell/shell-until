@@ -1,0 +1,8 @@
+#!/bin/sh
+read a
+until [ $a = "1" ]; do
+	echo "$a != 10"
+	read a
+done
+
+exit 0
