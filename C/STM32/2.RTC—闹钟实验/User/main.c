@@ -46,6 +46,7 @@ struct rtc_time clocktime=
 30,0,0,1,1,2000,0
 };
 float temp_s=-1,temp_m=-1,temp_h=-1;
+int sec_1 = 0;
 
 extern __IO uint32_t TimeDisplay ;
 extern __IO uint32_t TimeAlarm ;
@@ -88,7 +89,9 @@ void Time_Display1(uint32_t TimeVar,struct rtc_time *tm, struct rtc_time *tm1)
 int main()
 {		
 	int flag = 0;
+	int alarm_flag = 0;
 	int color_flag = 0;
+	char str[10];
 	uint32_t clock_timestamp;
 	//uint32_t current_timestamp;
 	
@@ -118,6 +121,10 @@ int main()
 		/*设置闹钟寄存器*/
 		clock_timestamp = mktimev(&clocktime)-TIME_ZOOM;
 		RTC_SetAlarm(clock_timestamp);
+		LCD_SetFont(&Font16x24);
+		LCD_SetTextColor(WHITE);
+		sprintf((char *)str,"%0.2d",sec_1);	
+		ILI9341_DispStringLine_EN(LINE(0),(char*)str);
 	  while (1)
 	  {
 				/* 每过1s 更新一次时间*/
@@ -168,43 +175,58 @@ int main()
 									clocktime.tm_sec == systmtime.tm_sec)
 						TimeAlarm = 1;
 				//响铃
+				/*if(sec_1 > 10 && sec_1 <=20)
+				{
+						sec_1 = 0;
+						TimeAlarm = 0;
+						color_flag = 0;
+						BEEP(OFF);
+				}*/
+				
 				if( TimeAlarm == 1)
 				{
-						if(flag)
-							BEEP(ON);
-						else
-							BEEP(OFF);
-						// 开启GPIOB 端口时钟
-						if(color_flag == 5)
-								color_flag = 0;
-						color_flag++;
-						switch(color_flag)
+						if(0 == sec_1%10)
+								alarm_flag = !alarm_flag;
+						
+						if(alarm_flag)
 						{
-							case 1:	SetRGBColor(0x8080ff);	break;							
-							case 2:	SetRGBColor(0xff8000);	break;
-							case 3:	SetRGBColor(0xffc90e);	break;
-							case 4:	SetColorValue(181,230,29);	break;
-							case 5:	SetColorValue(255,128,64);	break;
+								if(flag)
+									BEEP(ON);
+								else
+									BEEP(OFF);
+								// 开启GPIOB 端口时钟
+								if(color_flag == 5)
+										color_flag = 0;
+								color_flag++;
+								switch(color_flag)
+								{
+									case 1:	SetRGBColor(0x8080ff);	break;							
+									case 2:	SetRGBColor(0xff8000);	break;
+									case 3:	SetRGBColor(0xffc90e);	break;
+									case 4:	SetColorValue(181,230,29);	break;
+									case 5:	SetColorValue(255,128,64);	break;
+								}
+								flag=!flag;
 						}
-						flag=!flag;
+						else
+						{
+								BEEP(OFF);
+								SetColorValue(0,0,0);
+						}
+						
+						sprintf((char *)str,"%0.2d",sec_1);	
 				}
 				else
 				{
 						color_flag = 0;
+						sec_1=0;
+						sprintf((char *)str,"%0.2d",sec_1);	
 				}
-
-				//按下按键，关闭蜂鸣器
-				/*if( Key_Scan(KEY2_GPIO_PORT,KEY2_GPIO_PIN) == KEY_ON  )
-				{
-						BEEP(OFF);
-						TimeAlarm = 0;
-				}*/
-				
-				//ILI9341_Clear(0,0,LCD_X_LENGTH,LCD_Y_LENGTH);	/* 清屏，显示全黑 */
+				LCD_SetTextColor(WHITE);
+				LCD_SetFont(&Font16x24);
+				ILI9341_DispStringLine_EN(LINE(0),(char*)str);
 	  }
 }
-
-
 
 void LCD_Test(struct rtc_time tm)
 {
@@ -271,7 +293,8 @@ void LCD_Test(struct rtc_time tm)
 	Delay(0x4FFFFF);
   //ILI9341_Clear(0,16*8,LCD_X_LENGTH,LCD_Y_LENGTH-16*8);	// ??
 	//ILI9341_Clear(0,0,LCD_X_LENGTH,LCD_Y_LENGTH);	/* 清屏，显示全黑 */
-
+		if( TimeAlarm == 1)
+				sec_1++;
 }
 
 static void Delay ( __IO uint32_t nCount )

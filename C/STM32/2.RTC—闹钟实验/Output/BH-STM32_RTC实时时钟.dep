@@ -701,7 +701,7 @@ I (..\..\Libraries\FWlib\inc\stm32f10x_spi.h)(0x58953511)
 I (..\..\Libraries\FWlib\inc\stm32f10x_tim.h)(0x58953511)
 I (..\..\Libraries\FWlib\inc\stm32f10x_usart.h)(0x58953511)
 I (..\..\Libraries\FWlib\inc\misc.h)(0x5895350F)
-F (..\..\User\main.c)(0x5DF9A407)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Libraries\CMSIS -I..\..\User -I..\..\Libraries\FWlib\inc-I C:\Users\Bear\Desktop\program\stm32\RTC—实时时钟\2.RTC—闹钟实验\Project\RVMDK（uv5）\RTE-I "F:\Program Files\Kile5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-I "F:\Program Files\Kile5\ARM\CMSIS\Include"-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\..\output\main.o --omf_browse ..\..\output\main.crf --depend ..\..\output\main.d)
+F (..\..\User\main.c)(0x5DFACA95)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Libraries\CMSIS -I..\..\User -I..\..\Libraries\FWlib\inc-I C:\Users\Bear\Desktop\program\stm32\RTC—实时时钟\2.RTC—闹钟实验\Project\RVMDK（uv5）\RTE-I "F:\Program Files\Kile5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-I "F:\Program Files\Kile5\ARM\CMSIS\Include"-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\..\output\main.o --omf_browse ..\..\output\main.crf --depend ..\..\output\main.d)
 I (..\..\Libraries\CMSIS\stm32f10x.h)(0x5895350F)
 I (..\..\Libraries\CMSIS\core_cm3.h)(0x5895350F)
 I (F:\Program Files\Kile5\ARM\ARMCC\include\stdint.h)(0x5475F300)
