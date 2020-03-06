@@ -1,0 +1,34 @@
+#include "mainwindow.h"
+#include "ui_mainwindow.h"
+
+MainWindow::MainWindow(QWidget *parent) :
+    QMainWindow(parent),
+    ui(new Ui::MainWindow)
+{
+    ui->setupUi(this);
+}
+
+MainWindow::~MainWindow()
+{
+    delete ui;
+}
+
+void MainWindow::on_actionaddstu_triggered()
+{
+    //Add_Student a;
+    //a.show();
+    //a.exec();
+    this->a.show();
+}
+
+void MainWindow::on_actionquerystu_triggered()
+{
+
+    if(this->q.readFromFile() == -1)
+    {
+        QMessageBox::critical(this, "错误", "文件打开失败", "确定");
+        this->close();
+    }
+    this->q.show();
+    this->q.clear();
+}
